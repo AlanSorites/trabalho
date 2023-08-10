@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body { 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/605/422/346/chromatic-aberration-friedrich-nietzsche-philosophers-simple-background-wallpaper-preview.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+
+.login {
+    width: 100px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.sign-up h2 {
+    text-align: center;
+    font-size: 3cm;
+    color:#fff;
+    margin-bottom: 50px;
+}
+
+.login .input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+
+.input-mail {
+    font-size: 20px;
+    width: 70%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid #fff;
+    transition: .3s;
+    color: #fff;
+}
+
+.input-mail:focus ~ label,
+.input-mail:valid ~ label {
+    top:-20px;
+    font-size: 15px;
+    color:#f8ece2;
+    border:none;
+}
+.input label {
+    position: relative;
+    left: -380px;
+    color:#fff;
+}
+.input i {
+    position: absolute;
+    right: 600px;
+    color: #fff;
+}
+.login .checkbox {
+    padding-left: 60px;
+    margin-bottom: 30px;
+    color:#fff;
+}
+button {
+    font-size: 25px;
+    width: 70%;
+    margin-left: 60px;
+    font-weight: 500;
+    background-color:#ffffff2a;
+    color: black;
+    border: none;
+    outline: none;
+}
+button:active {
+    font-size: 30px;
+}
+.box p {
+    text-align: center;
+    margin: 20px 30px 0 0;
+    font-size: 20px;
+    font-weight: 600;
+    color:#fff;
+}
+.login .icon {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding-left: 40px;
+}
+p {
+    color:black;
+}
+
